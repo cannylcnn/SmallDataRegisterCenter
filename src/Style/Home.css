@@ -1,0 +1,34 @@
+
+#ContainerBox{
+    width: auto;
+    height: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    
+}
+
+#Box1{
+    width: auto;
+    font-size: 105%;
+    margin-left: -20%;
+    color: black;
+    font-weight: 600;
+}
+
+
+#stop{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dur{
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 8%;
+}
+
+#danger{
+    width: 570px;
+}

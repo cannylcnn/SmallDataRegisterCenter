@@ -1,0 +1,61 @@
+#newar{
+    text-align: center;
+    margin-top: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size:200%;     
+}
+#line{
+    width: 3%;
+    margin-left: 48%;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailbtn{
+    width: 190px;
+    height: 55px;
+    background-color: black;
+    padding-top:5%;
+    border-radius: 5px;
+    
+}
+
+#emailbtnyazi{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    opacity: 90%;   
+}
+
+.card-system{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+#cardOne{
+    margin-right: 5%;
+}
+
+.card:hover{
+    
+    transform: scale(1.1);
+    transition: 2s;
+
+}

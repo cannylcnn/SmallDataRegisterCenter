@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:49px;
+    margin: 5px;
+}
+
+.container .card{
+    flex: 4 4 4 0%;    
+    
+}

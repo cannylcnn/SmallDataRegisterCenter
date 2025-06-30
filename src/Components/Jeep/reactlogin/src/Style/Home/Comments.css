@@ -1,0 +1,44 @@
+.commentTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(238, 238, 238);
+}
+
+#comment{
+    padding-top:10%;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:110%;
+    opacity: 70%;
+}
+
+#commenter{
+    padding-top:10%;
+    text-align: center;
+    font-style: italic;
+    opacity: 90%;
+}
+
+#commentcardsOne{
+    background-color: rgb(238, 238, 238);
+    border-left-color: rgb(238, 238, 238); 
+    border-top-color:rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);;
+}
+
+#commentcards{
+    background-color: rgb(238, 238, 238);
+    border-top-color:rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);;
+}
+
+#commentcardsThree{
+    background-color: rgb(238, 238, 238);
+    border-right-color: rgb(238, 238, 238); 
+    border-top-color:rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);;
+}

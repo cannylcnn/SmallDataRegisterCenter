@@ -1,0 +1,248 @@
+.profileBox{
+    width: 1200px;
+    height: 550px;
+    border-style: none;
+    border-width: 100px;
+    background-color: #ffffff;
+    margin-left: 5%;
+    border-radius: 15px;
+    
+}
+
+.backgroundPhoto{
+    width: 1198px;
+    height: 300px;
+    background-color: rgb(119, 33, 33);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#bck{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profilePhoto{
+    width: 170px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-7%;
+    margin-left: 43%;
+    position: relative;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.521);
+    border-style: double;
+}
+
+.profileName{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#line{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.profileLinks{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+} 
+
+.profileLinks li{
+    list-style-type: none;
+    width: 100px;
+}
+
+.profileLocation{
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.profileLinks a{
+    width: auto;
+    height: auto;
+    color: rgb(17, 17, 17);
+    margin-right: 50px;
+    font-size:105%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.profileLinks a:hover{
+    color: rgb(26, 24, 24);
+    opacity: 80%;
+    font-size:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+#sendbtn{
+    width: 128px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+}
+
+
+#sendbtn:hover{
+    width: 128px;
+    background-color: rgb(47, 74, 194);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.sendbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 479px;
+}
+
+.mapContainer{
+    width: 1200px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:5.1%;
+    background-color: rgb(36, 37, 41);;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    border-radius: 0px;
+    margin-top: -10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.konum{
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(36, 37, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1%;
+    margin-left: 5.1%;
+    margin-top: 2%;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.konum p{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+    opacity: 80%;
+
+}
+
+.pf{
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(36, 37, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1%;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.pf p{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+    opacity: 80%;
+}
+
+
+.infoContainer{
+    width: 1200px;
+    height: auto;
+    border-style: none;
+    border-width: 100px;
+    border-color: rgb(143, 58, 58);
+    background-color: #ffffff;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+#rw{
+    width: 1200px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+
+#colflex p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+
+
+    .profileBox{
+        width: 650px;
+        height: 856px;
+        border-style: none;
+        border-width: 100px;
+        border-color: rgb(143, 58, 58);
+        background-color: #ffffff;
+        margin-left: 19%;
+    }
+
+    #sendbtn{
+    width: 100px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    }
+
+
+    #sendbtn:hover{
+    width: 100px;
+    background-color: rgb(47, 74, 194);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: 0.2s;
+    }
+
+
+    .sendbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    }
+
+}
+

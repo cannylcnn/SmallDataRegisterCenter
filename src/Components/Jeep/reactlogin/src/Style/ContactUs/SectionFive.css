@@ -1,0 +1,21 @@
+#rowTwo{
+    margin-top: 3%;
+}
+#col-sm-four{
+    text-align: center;
+    margin-top: 6%;
+}
+
+#four-head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:140%;
+    opacity: 90%;
+}
+
+#four-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    opacity: 70%;
+}
+
+

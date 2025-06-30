@@ -1,0 +1,44 @@
+.container{
+  
+    margin-left:15%;
+}
+
+#box{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left:7.8%;
+    margin-top: 2%;
+}
+
+#duzenle{
+    width: 250px;
+    background-color:rgba(160, 150, 150, 0.342);
+    border-color:rgba(160, 150, 150, 0.342);
+    color: black; 
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#share{
+    width: 250px;
+    background-color:rgba(160, 150, 150, 0.342);
+    border-color:rgba(160, 150, 150, 0.342);
+    color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#plus{
+    background-color:rgba(160, 150, 150, 0.342);
+    border-color:rgba(160, 150, 150, 0.342);
+    color: black;
+    margin-left: 1px;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#tag{
+    margin-left:7.6%;
+}
